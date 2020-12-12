@@ -1,0 +1,50 @@
+{
+  "name": "DatingAppCLI",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@react-native-community/masked-view": "0.1.10",
+    "@react-native-community/viewpager": "^4.1.6",
+    "@react-navigation/bottom-tabs": "^5.9.2",
+    "@react-navigation/native": "^5.7.6",
+    "@react-navigation/stack": "^5.9.3",
+    "react": "16.13.1",
+    "react-minimal-pie-chart": "^8.0.1",
+    "react-native": "0.63.4",
+    "react-native-chart-kit": "^6.6.1",
+    "react-native-emoji-board": "^1.2.1",
+    "react-native-emoji-picker": "^0.2.2",
+    "react-native-gesture-handler": "~1.6.0",
+    "react-native-linear-gradient": "^2.5.6",
+    "react-native-location-switch": "philiWeitz/react-native-location-switch#pull/21/head",
+    "react-native-reanimated": "~1.9.0",
+    "react-native-safe-area-context": "~3.0.7",
+    "react-native-screens": "~2.9.0",
+    "react-native-svg": "^12.1.0",
+    "react-native-svg-charts": "^5.4.0",
+    "react-native-swiper": "^1.6.0",
+    "react-native-vector-icons": "^7.1.0",
+    "react-native-web": "~0.11.7",
+    "recharts": "^1.8.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/runtime": "^7.12.5",
+    "@react-native-community/eslint-config": "^2.0.0",
+    "babel-jest": "^26.6.3",
+    "eslint": "^7.15.0",
+    "jest": "^26.6.3",
+    "metro-react-native-babel-preset": "^0.64.0",
+    "react-test-renderer": "16.13.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
